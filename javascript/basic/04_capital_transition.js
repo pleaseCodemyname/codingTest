@@ -11,6 +11,7 @@ rl.on("line", function (line) {
   input = [line];
 }).on("close", function () {
   str = input[0];
+  // 반복문 i = 0; i = str의 길이; 반복문 끝나고 1씩 증가
   for (let i = 0; i < str.length; i++) {
     if (str[i] === str[i].toLowerCase()) {
       // str의 인덱스의 값이 소문자이면
