@@ -13,9 +13,10 @@ rl.on("line", function (line) {
   str = input[0];
   for (let i = 0; i < str.length; i++) {
     if (str[i] === str[i].toLowerCase()) {
-      answer += str[i].toUpperCase();
+      // str의 인덱스의 값이 소문자이면
+      answer += str[i].toUpperCase(); // answer = answer + str의 인덱스.대문자로
     } else {
-      answer += str[i].toLowerCase();
+      answer += str[i].toLowerCase(); // 아니면 answer = answer + str의 인덱스.소문자로
     }
   }
 
