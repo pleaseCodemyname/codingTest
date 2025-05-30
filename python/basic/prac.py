@@ -296,3 +296,43 @@ date = ['09/05', '09/06', '09/07', '09/08', '09/09']
 close_price = [10500, 10300, 10100, 10800, 11000]
 close_table = dict(zip(date, close_price))
 print(close_table)
+
+# 사용자로 부터 입력받은 문자열 두 번 출력
+# a = input("입력: ")
+# print(a*2)
+
+# num = int(input("숫자를 입력하세요: "))
+# print(num + 10)
+
+# user = int(input())
+# if user % 2 == 0:
+#   print("짝수")
+# else:
+#   print("홀수")
+
+if True :
+    print ("1")
+    print ("2")
+else :
+    print("3")
+print("4")
+  
+if True :
+    if False:
+        print("1")
+        print("2")
+    else:
+        print("3")
+else :
+    print("4")
+print("5")
+'''
+3
+5
+''' 
+
+user = int(input()) + 20
+if user > 255:
+  print(255)
+else:
+  print(user)
